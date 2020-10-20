@@ -7,7 +7,7 @@ module.exports = (_, args) => ({
     publicPath:
       args.mode === "development"
         ? "http://localhost:8081/"
-        : "https://ui-consumer.nidamunir.vercel.app/",
+        : "https://ui-consumer.vercel.app/",
   },
 
   resolve: {
